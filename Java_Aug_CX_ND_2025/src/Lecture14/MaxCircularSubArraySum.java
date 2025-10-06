@@ -33,7 +33,9 @@ public class MaxCircularSubArraySum {
 			total+=arr[i];
 		}
 		
-		
+		if (total == minSum) {
+            return maxSum;
+        }
 		
 		return Math.max(maxSum, total-minSum);
     }
