@@ -17,8 +17,6 @@ public class Subsequence {
 		char ch =  ques.charAt(0);
 		subseq(ques.substring(1), ans+ch);//inc
 		subseq(ques.substring(1), ans);//exc
-		
-		
 	}
 
 }
