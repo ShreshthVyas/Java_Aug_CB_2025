@@ -2,8 +2,8 @@ package Lecture27;
 
 public class stack {
 	// All major functions in O(1) 
-	private int top =-1;
-	private int arr[];
+	protected int top =-1;
+	protected int arr[];
 	
 	public stack() {
 		this.arr = new int[5];

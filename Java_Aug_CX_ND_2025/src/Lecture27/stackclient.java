@@ -6,6 +6,7 @@ public class stackclient {
 		// TODO Auto-generated method stub
 		stack s =  new stack();
 		System.out.println(s.isEmpty());
+//		s.arr= null;
 		s.push(10);
 		s.push(20);
 		s.push(30);
